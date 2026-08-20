@@ -1,0 +1,35 @@
+name: travelmit
+description: A step-by-step guide for Nigerians studying in Austria.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # State management
+  provider: ^6.1.2
+
+  # Local persistence for document checklist progress
+  shared_preferences: ^2.2.3
+
+  # In-app purchases (one-time unlock)
+  purchases_flutter: ^6.29.0
+
+  # Opening VFS / university application links
+  url_launcher: ^6.3.0
+
+  # Live EUR to Naira exchange rate
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
